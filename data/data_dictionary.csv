@@ -1,0 +1,18 @@
+variable,description,role
+age,Age in years,continuous
+sex,"Sex: 0 female, 1 male",categorical
+cp,Chest-pain type,categorical
+trestbps,"Resting blood pressure, mm Hg",continuous
+chol,"Serum cholesterol, mg/dL",continuous
+fbs,Fasting blood sugar >120 mg/dL,categorical
+restecg,Resting electrocardiographic result,categorical
+thalach,Maximum heart rate achieved,continuous
+exang,Exercise-induced angina,categorical
+oldpeak,ST depression induced by exercise relative to rest,continuous
+slope,Slope of peak exercise ST segment,categorical
+ca,Major vessels colored by fluoroscopy,categorical
+thal,Thallium-test result: normal/fixed/reversible defect,categorical
+num,"Original angiographic disease-status category, 0-4",outcome
+target,Binary outcome: 0 if num=0; 1 if num>0,outcome
+source_cohort,Source UCI cohort,provenance
+row_id,Stable source-specific row identifier,identifier

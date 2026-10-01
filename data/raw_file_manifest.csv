@@ -1,0 +1,5 @@
+source_cohort,path,bytes,sha256
+cleveland,data/heart+disease/processed.cleveland.data,18461,a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8
+hungarian,data/heart+disease/reprocessed.hungarian.data,11058,b699122ef9f81fd06363083ab2646bcb225a3775abe801edb81c3093c8f92819
+switzerland,data/heart+disease/processed.switzerland.data,4109,834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314
+va_long_beach,data/heart+disease/processed.va.data,6737,e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f

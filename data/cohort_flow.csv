@@ -1,0 +1,16 @@
+stage,source_cohort,n,target_0,target_1
+downloaded_and_concatenated,cleveland,303,164,139
+downloaded_and_concatenated,hungarian,294,188,106
+downloaded_and_concatenated,switzerland,123,8,115
+downloaded_and_concatenated,va_long_beach,200,51,149
+downloaded_and_concatenated,all,920,411,509
+complete_case_after_column_drop,cleveland,303,164,139
+complete_case_after_column_drop,hungarian,261,163,98
+complete_case_after_column_drop,switzerland,46,1,45
+complete_case_after_column_drop,va_long_beach,130,29,101
+complete_case_after_column_drop,all,740,357,383
+after_zero_value_row_deletion,cleveland,303,164,139
+after_zero_value_row_deletion,hungarian,261,163,98
+after_zero_value_row_deletion,switzerland,0,0,0
+after_zero_value_row_deletion,va_long_beach,97,20,77
+after_zero_value_row_deletion,all,661,347,314

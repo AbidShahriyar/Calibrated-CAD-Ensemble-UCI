@@ -1,0 +1,11 @@
+feature,rule,n_invalid_cells,n_affected_rows
+chol,zero treated as missing,172,172
+trestbps,zero treated as missing,1,1
+sex,"outside allowed levels [0.0, 1.0]",0,0
+cp,"outside allowed levels [1.0, 2.0, 3.0, 4.0]",0,0
+fbs,"outside allowed levels [0.0, 1.0]",0,0
+restecg,"outside allowed levels [0.0, 1.0, 2.0]",0,0
+exang,"outside allowed levels [0.0, 1.0]",0,0
+slope,"outside allowed levels [1.0, 2.0, 3.0]",0,0
+ca,"outside allowed levels [0.0, 1.0, 2.0, 3.0]",1,1
+thal,"outside allowed levels [3.0, 6.0, 7.0]",0,0

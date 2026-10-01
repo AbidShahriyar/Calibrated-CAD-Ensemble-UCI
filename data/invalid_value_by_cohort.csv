@@ -1,0 +1,41 @@
+source_cohort,feature,rule,n_invalid_cells
+cleveland,chol,zero treated as missing,0
+hungarian,chol,zero treated as missing,0
+switzerland,chol,zero treated as missing,123
+va_long_beach,chol,zero treated as missing,49
+cleveland,trestbps,zero treated as missing,0
+hungarian,trestbps,zero treated as missing,0
+switzerland,trestbps,zero treated as missing,0
+va_long_beach,trestbps,zero treated as missing,1
+cleveland,sex,"outside allowed levels [0.0, 1.0]",0
+hungarian,sex,"outside allowed levels [0.0, 1.0]",0
+switzerland,sex,"outside allowed levels [0.0, 1.0]",0
+va_long_beach,sex,"outside allowed levels [0.0, 1.0]",0
+cleveland,cp,"outside allowed levels [1.0, 2.0, 3.0, 4.0]",0
+hungarian,cp,"outside allowed levels [1.0, 2.0, 3.0, 4.0]",0
+switzerland,cp,"outside allowed levels [1.0, 2.0, 3.0, 4.0]",0
+va_long_beach,cp,"outside allowed levels [1.0, 2.0, 3.0, 4.0]",0
+cleveland,fbs,"outside allowed levels [0.0, 1.0]",0
+hungarian,fbs,"outside allowed levels [0.0, 1.0]",0
+switzerland,fbs,"outside allowed levels [0.0, 1.0]",0
+va_long_beach,fbs,"outside allowed levels [0.0, 1.0]",0
+cleveland,restecg,"outside allowed levels [0.0, 1.0, 2.0]",0
+hungarian,restecg,"outside allowed levels [0.0, 1.0, 2.0]",0
+switzerland,restecg,"outside allowed levels [0.0, 1.0, 2.0]",0
+va_long_beach,restecg,"outside allowed levels [0.0, 1.0, 2.0]",0
+cleveland,exang,"outside allowed levels [0.0, 1.0]",0
+hungarian,exang,"outside allowed levels [0.0, 1.0]",0
+switzerland,exang,"outside allowed levels [0.0, 1.0]",0
+va_long_beach,exang,"outside allowed levels [0.0, 1.0]",0
+cleveland,slope,"outside allowed levels [1.0, 2.0, 3.0]",0
+hungarian,slope,"outside allowed levels [1.0, 2.0, 3.0]",0
+switzerland,slope,"outside allowed levels [1.0, 2.0, 3.0]",0
+va_long_beach,slope,"outside allowed levels [1.0, 2.0, 3.0]",0
+cleveland,ca,"outside allowed levels [0.0, 1.0, 2.0, 3.0]",0
+hungarian,ca,"outside allowed levels [0.0, 1.0, 2.0, 3.0]",1
+switzerland,ca,"outside allowed levels [0.0, 1.0, 2.0, 3.0]",0
+va_long_beach,ca,"outside allowed levels [0.0, 1.0, 2.0, 3.0]",0
+cleveland,thal,"outside allowed levels [3.0, 6.0, 7.0]",0
+hungarian,thal,"outside allowed levels [3.0, 6.0, 7.0]",0
+switzerland,thal,"outside allowed levels [3.0, 6.0, 7.0]",0
+va_long_beach,thal,"outside allowed levels [3.0, 6.0, 7.0]",0

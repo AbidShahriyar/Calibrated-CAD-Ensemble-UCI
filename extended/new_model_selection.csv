@@ -1,0 +1,4 @@
+model,best_parameters,best_mean_cv_roc_auc
+extra_trees,"{""model__max_depth"": 8, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 2, ""model__n_estimators"": 700}",0.8692744826828823
+gradient_boosting,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1, ""model__n_estimators"": 200}",0.8848670601277895
+hist_gradient_boosting,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.8649143161719527

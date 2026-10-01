@@ -1,0 +1,59 @@
+{
+  "feature_set": "noninvasive12",
+  "development_n": 644,
+  "evaluation_n": 276,
+  "additional_model_families": [
+    "extra_trees",
+    "gradient_boosting",
+    "hist_gradient_boosting"
+  ],
+  "base_models": [
+    "logistic_regression",
+    "knn",
+    "svc",
+    "random_forest",
+    "extra_trees",
+    "gradient_boosting",
+    "hist_gradient_boosting"
+  ],
+  "selected_equal_average_members": [
+    "logistic_regression",
+    "extra_trees",
+    "gradient_boosting"
+  ],
+  "constrained_blend_weights": {
+    "logistic_regression": 0.013123993487269472,
+    "knn": 0.43389908818644873,
+    "svc": 0.12514822053480085,
+    "random_forest": 0.0,
+    "extra_trees": 0.0,
+    "gradient_boosting": 0.427828697791481,
+    "hist_gradient_boosting": 0.0
+  },
+  "selected_ensemble_by_development_composite_rank": "equal_average_selected",
+  "best_single_by_development_composite_rank": "gradient_boosting",
+  "development_selected_threshold": 0.53,
+  "threshold_evaluation_metrics": {
+    "threshold": 0.53,
+    "accuracy": 0.8079710144927537,
+    "balanced_accuracy": 0.8052765821775865,
+    "sensitivity": 0.8300653594771242,
+    "specificity": 0.7804878048780488,
+    "precision": 0.8246753246753247,
+    "f1": 0.8273615635179153,
+    "tn": 96,
+    "fp": 27,
+    "fn": 26,
+    "tp": 127
+  },
+  "auc_comparison": {
+    "model_a": "equal_average_selected",
+    "model_b": "gradient_boosting",
+    "auc_difference_a_minus_b": 0.004091609543546371,
+    "ci_low": -0.004943142568680605,
+    "ci_high": 0.013499654604389236,
+    "two_sided_bootstrap_p": 0.384,
+    "bootstrap_replicates": 5000
+  },
+  "evaluation_not_used_for_selection": true
+}

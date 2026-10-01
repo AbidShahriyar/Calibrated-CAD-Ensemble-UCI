@@ -1,0 +1,2 @@
+model_a,model_b,auc_difference_a_minus_b,ci_low,ci_high,two_sided_bootstrap_p,bootstrap_replicates
+equal_average_selected,gradient_boosting,0.004091609543546371,-0.004943142568680605,0.013499654604389236,0.384,5000
