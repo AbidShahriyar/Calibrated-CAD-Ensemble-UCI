@@ -1,0 +1,13 @@
+held_out_cohort,component,training_n,test_n,best_parameters,best_mean_training_cv_roc_auc
+cleveland,knn,617,303,"{""model__n_neighbors"": 50, ""model__p"": 1, ""model__weights"": ""distance""}",0.8774495311638167
+cleveland,logistic_regression,617,303,"{""model__C"": 0.1, ""model__penalty"": ""l2"", ""model__solver"": ""liblinear""}",0.8680694980694981
+cleveland,svc,617,303,"{""model__C"": 1.0, ""model__gamma"": ""auto"", ""model__kernel"": ""rbf""}",0.8745151682294539
+hungarian,knn,626,294,"{""model__n_neighbors"": 30, ""model__p"": 1, ""model__weights"": ""uniform""}",0.8530873862077566
+hungarian,logistic_regression,626,294,"{""model__C"": 1.0, ""model__penalty"": ""l2"", ""model__solver"": ""liblinear""}",0.8460179573512907
+hungarian,svc,626,294,"{""model__C"": 1.0, ""model__gamma"": ""auto"", ""model__kernel"": ""rbf""}",0.8492667414889636
+switzerland,knn,797,123,"{""model__n_neighbors"": 50, ""model__p"": 1, ""model__weights"": ""distance""}",0.892818960093925
+switzerland,logistic_regression,797,123,"{""model__C"": 0.1, ""model__penalty"": ""l2"", ""model__solver"": ""liblinear""}",0.8938212300800206
+switzerland,svc,797,123,"{""model__C"": 0.01, ""model__gamma"": ""scale"", ""model__kernel"": ""linear""}",0.8899339039353105
+va_long_beach,knn,720,200,"{""model__n_neighbors"": 30, ""model__p"": 1, ""model__weights"": ""uniform""}",0.9096836419753087
+va_long_beach,logistic_regression,720,200,"{""model__C"": 0.1, ""model__penalty"": ""l2"", ""model__solver"": ""liblinear""}",0.8995756172839506
+va_long_beach,svc,720,200,"{""model__C"": 1.0, ""model__gamma"": ""auto"", ""model__kernel"": ""rbf""}",0.9040123456790123

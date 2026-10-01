@@ -1,0 +1,2 @@
+feature_set,model_a,model_b,auc_difference_a_minus_b,ci_low,ci_high,two_sided_bootstrap_p,bootstrap_replicates
+common10,soft_voting_none,logistic_regression,0.00366650725330786,-0.001966098092353488,0.009299112598969206,0.2052,5000

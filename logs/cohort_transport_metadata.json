@@ -1,0 +1,91 @@
+{
+  "analysis_role": "sensitivity analysis; primary pooled study unchanged",
+  "feature_set": "noninvasive12",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "thal"
+  ],
+  "cohort_used_as_predictor": false,
+  "component_families": [
+    "knn",
+    "logistic_regression",
+    "svc"
+  ],
+  "bootstrap_replicates": 2000,
+  "selection_scope": "training cohorts only within each LOCO fold",
+  "validation_checks": {
+    "cohort_excluded_from_predictors": true,
+    "all_920_records_have_loco_predictions": true,
+    "row_ids_are_unique": true,
+    "held_out_cohort_matches_source": true,
+    "four_source_cohorts_present": true,
+    "all_probabilities_are_finite": true,
+    "all_probabilities_are_in_unit_interval": true,
+    "loco_confusion_matrices_sum_to_n": true,
+    "subgroup_confusion_matrices_sum_to_n": true,
+    "four_models_evaluated_per_held_out_cohort": true,
+    "both_designs_cover_all_four_cohorts": true
+  },
+  "loco_ensemble_results": [
+    {
+      "cohort": "cleveland",
+      "n": 303,
+      "balanced_accuracy": 0.8011054570977365,
+      "sensitivity": 0.8705035971223022,
+      "specificity": 0.7317073170731707,
+      "roc_auc": 0.8923934023512897,
+      "brier": 0.1391064535026007,
+      "selected_calibration": "none"
+    },
+    {
+      "cohort": "hungarian",
+      "n": 294,
+      "balanced_accuracy": 0.8260236852669611,
+      "sensitivity": 0.9339622641509434,
+      "specificity": 0.7180851063829787,
+      "roc_auc": 0.90114411882778,
+      "brier": 0.1543495013822735,
+      "selected_calibration": "sigmoid"
+    },
+    {
+      "cohort": "switzerland",
+      "n": 123,
+      "balanced_accuracy": 0.6065217391304347,
+      "sensitivity": 0.7130434782608696,
+      "specificity": 0.5,
+      "roc_auc": 0.7152173913043478,
+      "brier": 0.1858722267334988,
+      "selected_calibration": "sigmoid"
+    },
+    {
+      "cohort": "va_long_beach",
+      "n": 200,
+      "balanced_accuracy": 0.6356757468087906,
+      "sensitivity": 0.8791946308724832,
+      "specificity": 0.392156862745098,
+      "roc_auc": 0.7258849848664298,
+      "brier": 0.1674590429634875,
+      "selected_calibration": "sigmoid"
+    },
+    {
+      "cohort": "all",
+      "n": 920,
+      "balanced_accuracy": 0.7647598697890525,
+      "sensitivity": 0.8506876227897839,
+      "specificity": 0.6788321167883211,
+      "roc_auc": 0.8509218495308294,
+      "brier": 0.1563935883680373,
+      "selected_calibration": "fold_specific_training_only"
+    }
+  ]
+}

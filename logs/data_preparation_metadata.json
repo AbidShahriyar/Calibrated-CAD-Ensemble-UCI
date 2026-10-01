@@ -1,0 +1,56 @@
+{
+  "source_rows": {
+    "cleveland": 303,
+    "hungarian": 294,
+    "switzerland": 123,
+    "va_long_beach": 200
+  },
+  "concatenated_n": 920,
+  "record_exclusion_after_complete_case_n": 740,
+  "record_exclusion_after_zero_deletion_n": 661,
+  "analytic_n": 920,
+  "rows_dropped_for_predictors": 0,
+  "feature_sets": {
+    "common10": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak"
+    ],
+    "noninvasive12": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "thal"
+    ],
+    "full13": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ]
+  }
+}

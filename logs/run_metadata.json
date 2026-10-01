@@ -1,0 +1,53 @@
+{
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "scikit_learn": "1.6.1",
+  "random_seed": 10,
+  "split": {
+    "method": "stratified 70/30 hold-out",
+    "development_n": 644,
+    "evaluation_n": 276
+  },
+  "bootstrap_ci_replicates": 2000,
+  "bootstrap_auc_difference_replicates": 5000,
+  "feature_set_results": [
+    {
+      "feature_set": "common10",
+      "n_features": 10,
+      "selected_components": [
+        "logistic_regression",
+        "knn",
+        "svc"
+      ],
+      "selected_calibration": "none",
+      "soft_ensemble_name": "soft_voting_none",
+      "best_single_by_development_rank": "logistic_regression"
+    },
+    {
+      "feature_set": "noninvasive12",
+      "n_features": 12,
+      "selected_components": [
+        "knn",
+        "logistic_regression",
+        "svc"
+      ],
+      "selected_calibration": "sigmoid",
+      "soft_ensemble_name": "soft_voting_sigmoid",
+      "best_single_by_development_rank": "knn"
+    },
+    {
+      "feature_set": "full13",
+      "n_features": 13,
+      "selected_components": [
+        "svc",
+        "random_forest",
+        "logistic_regression"
+      ],
+      "selected_calibration": "sigmoid",
+      "soft_ensemble_name": "soft_voting_sigmoid",
+      "best_single_by_development_rank": "svc"
+    }
+  ]
+}

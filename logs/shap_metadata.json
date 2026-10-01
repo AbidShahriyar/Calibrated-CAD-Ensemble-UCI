@@ -1,0 +1,12 @@
+{
+  "method": "Monte Carlo interventional permutation SHAP",
+  "model": "noninvasive12__soft_voting_sigmoid",
+  "output_scale": "positive-class probability",
+  "background_partition": "development",
+  "background_n": 644,
+  "summary_evaluation_records": 60,
+  "permutations_per_record": 64,
+  "random_seed": 10,
+  "random_case_row_id": "hungarian_109",
+  "maximum_absolute_additivity_error": 2.220446049250313e-16
+}

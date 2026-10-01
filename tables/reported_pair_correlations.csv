@@ -1,0 +1,5 @@
+feature_1,feature_2,pearson_r
+age,chol,0.08332607280939099
+age,trestbps,0.2530416286022208
+trestbps,chol,0.0887627183735035
+age,thalach,-0.3657782096052745
